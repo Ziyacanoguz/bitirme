@@ -1,0 +1,8 @@
+# Replace path with the ABSOLUTE path to your dataset; forward slashes work on Windows.
+# Windows example: C:/datasets/my_halisaha
+path: /absolute/path/to/my_halisaha
+train: images/train
+val: images/val
+# test: images/test  # enable only when this split exists
+names:
+  0: person

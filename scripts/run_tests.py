@@ -32,12 +32,12 @@ def main():
     parser.add_argument("--python", type=Path, help="Özel Python yorumlayıcı yolu")
     args = parser.parse_args()
 
-    python_bin = args.python.resolve() if args.python else find_best_python()
+    python_bin = args.python.absolute() if args.python else find_best_python()
     print(f"[run_tests] Python ortamı: {python_bin}")
 
     env = dict(os.environ)
     src_dir = str(ROOT / "src")
-    env["PYTHONPATH"] = f"{src_dir}:{env.get('PYTHONPATH', '')}"
+    env["PYTHONPATH"] = os.pathsep.join(filter(None, [src_dir, env.get("PYTHONPATH", "")]))
 
     cmd = [
         str(python_bin),

@@ -1,0 +1,3 @@
+# Version used to load and smoke-test the published model files.
+-r requirements.txt
+ultralytics==8.4.129
