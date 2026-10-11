@@ -1,0 +1,190 @@
+{
+  "coordinate_system": "normalized_field_division_homography_v1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "division_center": [
+    960,
+    540
+  ],
+  "division_scale": 1920,
+  "division_k": -1.1441729498506348,
+  "homography": [
+    [
+      0.33239859082292517,
+      -0.23237017701488757,
+      0.1793784895019014
+    ],
+    [
+      0.6477855288860423,
+      4.670430133645616,
+      0.6959884347220183
+    ],
+    [
+      0.08450260807966818,
+      4.374714099116452,
+      1
+    ]
+  ],
+  "image_points": [
+    [
+      103,
+      447
+    ],
+    [
+      149,
+      524
+    ],
+    [
+      184,
+      600
+    ],
+    [
+      229,
+      700
+    ],
+    [
+      278,
+      800
+    ],
+    [
+      332,
+      900
+    ],
+    [
+      390,
+      1000
+    ],
+    [
+      437,
+      1079
+    ],
+    [
+      1238,
+      231
+    ],
+    [
+      1345,
+      243
+    ],
+    [
+      1455,
+      259
+    ],
+    [
+      1556,
+      276
+    ],
+    [
+      1660,
+      295
+    ],
+    [
+      1758,
+      313
+    ],
+    [
+      1840,
+      332
+    ],
+    [
+      103,
+      447
+    ],
+    [
+      240,
+      401
+    ],
+    [
+      420,
+      353
+    ],
+    [
+      620,
+      312
+    ],
+    [
+      850,
+      278
+    ],
+    [
+      1040,
+      251
+    ],
+    [
+      1238,
+      231
+    ],
+    [
+      1840,
+      332
+    ],
+    [
+      1810,
+      441
+    ],
+    [
+      1780,
+      540
+    ],
+    [
+      1741,
+      640
+    ],
+    [
+      1700,
+      740
+    ],
+    [
+      1654,
+      840
+    ],
+    [
+      1610,
+      940
+    ],
+    [
+      1556,
+      1040
+    ],
+    [
+      865,
+      281
+    ],
+    [
+      1006,
+      298
+    ],
+    [
+      1147,
+      318
+    ],
+    [
+      1285,
+      337
+    ],
+    [
+      1450,
+      366
+    ],
+    [
+      1622,
+      400
+    ],
+    [
+      1806,
+      442
+    ]
+  ],
+  "fit_error_median": 0.002506669077775525,
+  "fit_error_p95": 0.02363423029635176,
+  "point_semantics": "Ground lines; x=0 goal A, x=1 goal B, y=0 spectator side",
+  "status": "experimental_not_surveyed",
+  "units": "normalized_not_meters",
+  "annotation_source": "/Users/ziyacan/Desktop/project/configs/field_lines_candidate_20260904.json",
+  "camera": "camera1",
+  "validation_note": "Alternating points on manually digitized lines; not an independent camera calibration target",
+  "source_annotations": "configs/field_lines_candidate_20260904.json",
+  "source_video": "assets/videos/matches/match_03/camera1.mp4",
+  "source_time_seconds": 1800,
+  "promotion_status": "experimental_explicit_opt_in_old_calibrations_preserved"
+}

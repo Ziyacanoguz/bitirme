@@ -1,0 +1,182 @@
+{
+  "coordinate_system": "normalized_field_division_homography_v1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "division_center": [
+    960,
+    540
+  ],
+  "division_scale": 1920,
+  "division_k": -1.1299431420505412,
+  "homography": [
+    [
+      0.22640193688657875,
+      3.8388320346580564,
+      0.8509046915590794
+    ],
+    [
+      -0.620065034720494,
+      3.889359637208212,
+      0.7105507034043266
+    ],
+    [
+      -0.10451637711893318,
+      3.617079354320848,
+      1
+    ]
+  ],
+  "image_points": [
+    [
+      639,
+      164
+    ],
+    [
+      550,
+      177
+    ],
+    [
+      460,
+      194
+    ],
+    [
+      350,
+      216
+    ],
+    [
+      250,
+      238
+    ],
+    [
+      150,
+      260
+    ],
+    [
+      38,
+      285
+    ],
+    [
+      1753,
+      376
+    ],
+    [
+      1715,
+      473
+    ],
+    [
+      1665,
+      588
+    ],
+    [
+      1608,
+      708
+    ],
+    [
+      1547,
+      824
+    ],
+    [
+      1483,
+      931
+    ],
+    [
+      1398,
+      1079
+    ],
+    [
+      639,
+      164
+    ],
+    [
+      850,
+      184
+    ],
+    [
+      1030,
+      212
+    ],
+    [
+      1220,
+      250
+    ],
+    [
+      1401,
+      291
+    ],
+    [
+      1573,
+      335
+    ],
+    [
+      1753,
+      376
+    ],
+    [
+      38,
+      285
+    ],
+    [
+      88,
+      400
+    ],
+    [
+      104,
+      530
+    ],
+    [
+      145,
+      630
+    ],
+    [
+      206,
+      760
+    ],
+    [
+      270,
+      880
+    ],
+    [
+      337,
+      1000
+    ],
+    [
+      387,
+      1079
+    ],
+    [
+      88,
+      400
+    ],
+    [
+      257,
+      353
+    ],
+    [
+      450,
+      305
+    ],
+    [
+      648,
+      267
+    ],
+    [
+      842,
+      234
+    ],
+    [
+      1030,
+      212
+    ]
+  ],
+  "fit_error_median": 0.005806204832589801,
+  "fit_error_p95": 0.025526083950518665,
+  "point_semantics": "Ground lines; x=0 goal A, x=1 goal B, y=0 spectator side",
+  "status": "experimental_not_surveyed",
+  "units": "normalized_not_meters",
+  "annotation_source": "/Users/ziyacan/Desktop/project/configs/field_lines_candidate_20260904.json",
+  "camera": "camera2",
+  "validation_note": "Alternating points on manually digitized lines; not an independent camera calibration target",
+  "source_annotations": "configs/field_lines_candidate_20260904.json",
+  "source_video": "assets/videos/matches/match_03/camera2.mp4",
+  "source_time_seconds": 1800,
+  "promotion_status": "experimental_explicit_opt_in_old_calibrations_preserved"
+}

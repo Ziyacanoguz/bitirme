@@ -1,0 +1,6 @@
+path: /Users/ziyacan/Desktop/Hali_Saha_Project/project_v3/datasets/dataset4_standalone
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: person

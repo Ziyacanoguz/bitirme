@@ -1,0 +1,5 @@
+path: /Users/ziyacan/Desktop/Hali_Saha_Project/project_v3/datasets/halisaha_merged_v4
+train: images/train
+val: images/val
+names:
+  0: person

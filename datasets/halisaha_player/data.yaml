@@ -1,0 +1,6 @@
+path: /Users/ziyacan/Desktop/project/datasets/halisaha_player
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: player

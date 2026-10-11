@@ -1,0 +1,22 @@
+project:
+  name: hali-saha-video-analizi
+
+videos:
+  camera_1: assets/videos/camera1.mp4
+  camera_2: assets/videos/camera2.mp4
+
+detection:
+  model: models/yolo26n.pt
+  classes: [0]
+  confidence: 0.15
+  image_size: 1280
+
+tracking:
+  baseline: bytetrack
+  alternatives:
+    - botsort
+
+outputs:
+  detections: outputs/detections
+  tracks: outputs/tracks
+  reports: outputs/reports

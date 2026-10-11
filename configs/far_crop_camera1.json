@@ -1,0 +1,6 @@
+{
+  "source": "assets/videos/camera1.mp4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "rectangle": [420, 180, 1900, 620]
+}

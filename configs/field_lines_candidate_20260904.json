@@ -1,0 +1,28 @@
+{
+  "description": "Assistant digitization of visible ground lines at match_03, 1800s. Candidate, not surveyed ground truth. Coordinates in 1920x1080 pixels. No unseen corner is clicked.",
+  "coordinate_system": "A goal x=0, B goal x=1; spectator-side touchline y=0, camera-side touchline y=1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "cameras": {
+    "camera1": {
+      "lines": [
+        {"name":"goal_A", "axis":0, "value":0, "points":[[103,447],[149,524],[184,600],[229,700],[278,800],[332,900],[390,1000],[437,1079]]},
+        {"name":"goal_B", "axis":0, "value":1, "points":[[1238,231],[1345,243],[1455,259],[1556,276],[1660,295],[1758,313],[1840,332]]},
+        {"name":"spectator_side", "axis":1, "value":0, "points":[[103,447],[240,401],[420,353],[620,312],[850,278],[1040,251],[1238,231]]},
+        {"name":"camera_side", "axis":1, "value":1, "points":[[1840,332],[1810,441],[1780,540],[1741,640],[1700,740],[1654,840],[1610,940],[1556,1040]]},
+        {"name":"halfway", "axis":0, "value":0.5, "points":[[865,281],[1006,298],[1147,318],[1285,337],[1450,366],[1622,400],[1806,442]]}
+      ],
+      "check_points": {"circle_spectator":[1135,317], "circle_camera":[1324,343], "penalty_A_upper_goal":[149,524], "penalty_A_lower_goal":[294,843], "penalty_A_upper_front":[488,436], "penalty_A_lower_front":[897,592]}
+    },
+    "camera2": {
+      "lines": [
+        {"name":"goal_A", "axis":0, "value":0, "points":[[639,164],[550,177],[460,194],[350,216],[250,238],[150,260],[38,285]]},
+        {"name":"goal_B", "axis":0, "value":1, "points":[[1753,376],[1715,473],[1665,588],[1608,708],[1547,824],[1483,931],[1398,1079]]},
+        {"name":"spectator_side", "axis":1, "value":0, "points":[[639,164],[850,184],[1030,212],[1220,250],[1401,291],[1573,335],[1753,376]]},
+        {"name":"camera_side", "axis":1, "value":1, "points":[[38,285],[88,400],[104,530],[145,630],[206,760],[270,880],[337,1000],[387,1079]]},
+        {"name":"halfway", "axis":0, "value":0.5, "points":[[88,400],[257,353],[450,305],[648,267],[842,234],[1030,212]]}
+      ],
+      "check_points": {"circle_spectator":[741,249], "circle_camera":[553,284], "penalty_B_upper_front":[1390,358], "penalty_B_lower_front":[980,518]}
+    }
+  }
+}
